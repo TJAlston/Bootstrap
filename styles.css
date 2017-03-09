@@ -9,9 +9,17 @@ body {
 #cover {
     background-image: url("img/stars.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: center;
 }
