@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 /*cover*/
 
 #cover {
@@ -19,7 +23,31 @@ body {
     margin: 0 auto;
 }
 
+#cover-caption {
+  height: 100%;
+}
+
 .form-inline {
   display: flex;
   justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: left;
+}
+
+/*Fix boostrap menu to flex*/
+.nav li {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
 }
