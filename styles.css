@@ -1,0 +1,17 @@
+/* styles .css*/
+html,
+body {
+  height: 100%;
+}
+
+/*cover*/
+
+#cover {
+    background-image: url("img/stars.jpg");
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
