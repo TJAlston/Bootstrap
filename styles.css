@@ -30,7 +30,9 @@ img {
 
 .carousel-item img{
   height: 100vh;
-  width: 100vw;
+  width: 80vw;
+  margin: 0 auto;
+  background-color: grey;
 }
 
 .section-content {
@@ -38,7 +40,7 @@ img {
 }
 
 #about {
-  background: url("img/girlincar.jpg");
+  background: url("img/TJ1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
