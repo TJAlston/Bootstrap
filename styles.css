@@ -8,6 +8,10 @@ img {
     max-width: 100%;
 }
 
+h3 {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 50px;
+}
 /*cover*/
 
 #cover {
