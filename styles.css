@@ -30,9 +30,17 @@ img {
 
 .carousel-item img{
   height: 100vh;
-  width: 80vw;
+  width: 100%;
   margin: 0 auto;
   background-color: grey;
+  border-bottom: 5px solid grey;
+}
+
+.carousel-caption {
+  background-color: rgba(102, 102, 106, 0.75);
+  color: white;
+  text-shadow: 1px 1px #130202;
+  margin: 0 auto;
 }
 
 .section-content {
@@ -43,6 +51,12 @@ img {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+
+}
+
+#carousel-home li:active {
+  background-color: blue;
 }
 
 .about-text {
