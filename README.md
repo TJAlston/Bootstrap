@@ -1,4 +1,3 @@
-# Bootstrap
+# TJ 2017 Portfolio
 
-
-Practicing more Bootstrap for future projects.
+New Portfolio look more modern and sleek using Bootstrap.

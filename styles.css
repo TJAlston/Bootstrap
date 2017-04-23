@@ -51,6 +51,12 @@ h3 {
   padding: 5rem 0;
 }
 
+.navbar-brand {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 30px;
+  color: white;
+}
+
 #about {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
