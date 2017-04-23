@@ -82,6 +82,11 @@ h3 {
   padding: 2.5rem 0;
 }
 
+.email {
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
 // MEDIA QUERIES
 
 @media screen and (max-width : 400px) and (min-width: 767px){
