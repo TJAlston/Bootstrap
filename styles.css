@@ -101,6 +101,10 @@ h3 {
   word-wrap: break-word;
 }
 
+.tj2 {
+  opacity: .85;
+}
+
 // MEDIA QUERIES
 
 @media screen and (max-width : 400px) and (min-width: 767px){
