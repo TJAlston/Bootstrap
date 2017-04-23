@@ -67,6 +67,10 @@ h3 {
   color: white;
 }
 
+.navbar-link {
+  color: white;
+}
+
 #about {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
