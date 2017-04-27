@@ -61,6 +61,10 @@ h3 {
   padding: 5rem 0;
 }
 
+.navbar {
+
+}
+
 .navbar-brand {
   font-family: 'Mr Dafoe', cursive;
   font-size: 30px;
@@ -105,11 +109,19 @@ h3 {
   opacity: .85;
 }
 
+.fixed {
+	position: fixed;
+	top: 0;
+	/*height: 70px; 
+	z-index: 1;*/
+}
+
 // MEDIA QUERIES
 
 @media screen and (max-width : 400px) and (min-width: 767px){
 
   #about {
     background-size: contain;
+    background-color: white;
   }
 }
