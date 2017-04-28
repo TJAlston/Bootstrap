@@ -73,7 +73,9 @@ h3 {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
+  margin-bottom: -10vh;
+  overflow: scroll;
 }
 
 .about-text .passion {
@@ -117,11 +119,25 @@ h3 {
   border-top: 5px solid rgba(102, 102, 106, 0.75);
 }
 
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+.affix + .container {
+      padding-top: 70px;
+  }
+
 // MEDIA QUERIES
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media screen (min-width: 300px) and (max-width: 550px) {
 
   #about {
     background-image: none;
   }
+
+  .about-text {
+    padding-bottom: 100px;
+  }
+
 }
