@@ -39,15 +39,9 @@ h3 {
 #cover-caption {
   height: 100%;
 }*/
-
-
 .carousel-item img{
   height: 100vh;
-  width: 100vw;
   margin: 0 auto;
-  background-color: grey;
-  border-bottom: 5px solid grey;
-  border-top: 5px solid grey;
 }
 
 .carousel-caption {
@@ -62,7 +56,7 @@ h3 {
 }
 
 .navbar {
-
+  border-bottom: 5px solid rgba(102, 102, 106, 0.75);
 }
 
 .navbar-brand {
@@ -114,6 +108,10 @@ h3 {
 	top: 0;
 	/*height: 70px;
 	z-index: 1;*/
+}
+
+#what-we-do {
+  border-top: 5px solid rgba(102, 102, 106, 0.75);
 }
 
 // MEDIA QUERIES
