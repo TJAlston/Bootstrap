@@ -73,8 +73,11 @@ h3 {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
+}
 
+.about-text .passion {
+  font-weight: lighter;
 }
 
 #carousel-home li:active {
@@ -116,10 +119,9 @@ h3 {
 
 // MEDIA QUERIES
 
-@media screen and (max-width : 400px) and (min-width: 767px){
+@media (min-width: 300px) and (max-width: 600px) {
 
   #about {
-    background-size: contain;
-    background-color: white;
+    background-image: none;
   }
 }
