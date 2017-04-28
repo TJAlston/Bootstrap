@@ -130,14 +130,10 @@ h3 {
 
 // MEDIA QUERIES
 
-@media screen (min-width: 300px) and (max-width: 550px) {
+@media screen and (min-width: 300px) and (max-width: 550px) {
 
   #about {
-    background-image: none;
+    background-image: url("img/TJ1.png");
+    background-size: contain;
   }
-
-  .about-text {
-    padding-bottom: 100px;
-  }
-
 }
