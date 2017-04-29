@@ -73,6 +73,7 @@ h3 {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   margin-bottom: -10vh;
   overflow: scroll;
@@ -133,7 +134,6 @@ h3 {
 @media screen and (min-width: 300px) and (max-width: 550px) {
 
   #about {
-    background-image: url("img/TJ1.png");
-    background-size: contain;
+
   }
 }
