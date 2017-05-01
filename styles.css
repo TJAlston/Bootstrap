@@ -39,6 +39,11 @@ h3 {
 #cover-caption {
   height: 100%;
 }*/
+
+.navbar {
+  top: 0px;
+  bottom: 0px;
+}
 .carousel-item img{
   height: 100vh;
   margin: 0 auto;
@@ -74,7 +79,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
   margin-bottom: -10vh;
   overflow: scroll;
 }
