@@ -39,11 +39,6 @@ h3 {
 #cover-caption {
   height: 100%;
 }*/
-
-.navbar {
-  top: 0px;
-  bottom: 0px;
-}
 .carousel-item img{
   height: 100vh;
   margin: 0 auto;
@@ -60,9 +55,12 @@ h3 {
   padding: 5rem 0;
 }
 
-.navbar {
-  border-bottom: 5px solid rgba(102, 102, 106, 0.75);
-}
+/*.navbar {
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+}*/
 
 .navbar-brand {
   font-family: 'Mr Dafoe', cursive;
@@ -88,6 +86,12 @@ h3 {
   font-weight: lighter;
 }
 
+#carousel {
+  border-bottom: 5px solid rgba(102, 102, 106, 0.75);
+  margin: auto;
+  padding: auto;
+}
+
 #carousel-home li:active {
   background-color: blue;
 }
@@ -102,7 +106,8 @@ h3 {
   background: #222;
   color: white;
   font-size: 0.8rem;
-  padding: 2.5rem 0;
+  /*padding: 2.5rem 0;
+  mar*/
 }
 
 .email {
@@ -121,9 +126,6 @@ h3 {
 	z-index: 1;*/
 }
 
-#what-we-do {
-  border-top: 5px solid rgba(102, 102, 106, 0.75);
-}
 
 .affix {
       top: 0;
