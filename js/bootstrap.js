@@ -333,6 +333,8 @@ var Alert = function ($) {
     return Alert;
   }();
 
+
+
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
@@ -1635,6 +1637,29 @@ var Dropdown = function ($) {
   return Dropdown;
 }(jQuery);
 
+/**
+ * ------------------------------------------------------------------------
+ * Nav Scroll Stick
+ * ------------------------------------------------------------------------
+ */
+
+function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#sticky-anchor').offset().top;
+
+    if (window_top > div_top) {
+        $('#sticky').addClass('stick');
+        $('#sticky-anchor').height($('#sticky').outerHeight());
+    } else {
+        $('#sticky').removeClass('stick');
+        $('#sticky-anchor').height(0);
+    }
+}
+
+$(function() {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): modal.js

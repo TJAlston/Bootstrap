@@ -54,10 +54,7 @@ h3 {
 .section-content {
   padding: 5rem 0;
 }
-/*
-.navbar {
 
-}*/
 
 .navbar {
   /*position: fixed;*/
@@ -74,6 +71,15 @@ h3 {
 
 .navbar-link {
   color: white;
+}
+
+
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
 }
 
 #about {
