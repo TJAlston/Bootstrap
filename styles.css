@@ -55,13 +55,12 @@ h3 {
   padding: 5rem 0;
 }
 
-
-.navbar {
-  /*position: fixed;*/
+/*.navbar {
+  position: fixed;
   bottom: 0px;
   z-index: 1;
   width: 100%;
-}
+}*/
 
 .navbar-brand {
   font-family: 'Mr Dafoe', cursive;
@@ -73,22 +72,13 @@ h3 {
   color: white;
 }
 
-
-#sticky.stick {
-    margin-top: 0 !important;
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-    border-radius: 0 0 0.5em 0.5em;
-}
-
 #about {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
-  margin-bottom: -9vh;
+  margin-bottom: -10vh;
   overflow: scroll;
 }
 
@@ -97,10 +87,9 @@ h3 {
 }
 
 #carousel {
-  /*border-bottom: 3px solid rgba(169, 169, 175, 0.75);*/
+  border-bottom: 5px solid rgba(102, 102, 106, 0.75);
   margin: auto;
   padding: auto;
-  padding-top: 10px;
 }
 
 #carousel-home li:active {
@@ -117,7 +106,8 @@ h3 {
   background: #222;
   color: white;
   font-size: 0.8rem;
-  padding: 2rem 0;
+  /*padding: 2.5rem 0;
+  mar*/
 }
 
 .email {
@@ -146,10 +136,17 @@ h3 {
       padding-top: 70px;
   }
 
-// MEDIA QUERIES
+/*// MEDIA QUERIES
+@media only screen and (max-width: 500px) {
 
-@media screen and (min-width: 300px) and (max-width: 550px) {
+  .heightFix {
+      height: 80vh;
+  }
 
   #about {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin-bottom: -10vh;
   }
-}
+}*/
