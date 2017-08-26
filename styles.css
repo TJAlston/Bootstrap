@@ -90,6 +90,7 @@ h3 {
   border-bottom: 5px solid rgba(102, 102, 106, 0.75);
   margin: auto;
   padding: auto;
+  background-color: rgba(177, 181, 180, 0.96);
 }
 
 #carousel-home li:active {
@@ -136,6 +137,9 @@ h3 {
       padding-top: 70px;
   }
 
+.webDzyn {
+  width: 35vw;
+}
 /*// MEDIA QUERIES
 @media only screen and (max-width: 500px) {
 
