@@ -5949,10 +5949,10 @@ button.close {
 .carousel-control-prev:focus, .carousel-control-prev:hover,
 .carousel-control-next:focus,
 .carousel-control-next:hover {
-  color: #292b2c;
+  color: #fff;
   text-decoration: none;
   outline: 0;
-  /*opacity: .9;*/
+  opacity: .9;
 }
 
 .carousel-control-prev {
