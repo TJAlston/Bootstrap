@@ -52,7 +52,7 @@ h3 {
 }
 
 .section-content {
-  padding: 5rem 0;
+  padding: 5vw 0;
 }
 
 /*.navbar {
@@ -61,6 +61,9 @@ h3 {
   z-index: 1;
   width: 100%;
 }*/
+.navbar {
+  margin-top: 2rem;
+}
 
 .navbar-brand {
   font-family: 'Mr Dafoe', cursive;
@@ -72,13 +75,17 @@ h3 {
   color: white;
 }
 
+.container {
+  margin-top: .5rem;
+}
+
 #about {
   background: url("img/TJ1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
-  margin-bottom: -10vh;
+  margin-bottom: -13.5vh;
   overflow: scroll;
 }
 
