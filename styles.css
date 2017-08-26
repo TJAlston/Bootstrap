@@ -111,7 +111,13 @@ h3 {
 }
 
 #news {
-  background-color: rgba(209, 207, 210, 0.50);
+  background-image: url('img/NewHaven2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-columns {
+  margin-bottom: -5rem;
 }
 
 #footer-main {
