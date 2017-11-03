@@ -171,7 +171,7 @@ h3 {
     height: 55vh !important;
   }
   .carousel-caption {
-    background-color: transparent !important;
+    background-color:  rgba(51, 51, 50, 0.3); !important;
     /*font-style: hidden !important;*/
   }
   .webDzyn {
@@ -192,8 +192,16 @@ h3 {
     background-repeat: no-repeat;
     background-size: 600px 500px;
     background-attachment: fixed;
-    margin-bottom: -32vh;
+    margin-bottom: -33vh;
     overflow: scroll;
+  }
+
+  .carousel {
+    background-color: lightgrey;
+  }
+
+  .about-text {
+    background-color:  rgba(51, 51, 50, 0.7);
   }
 
   /*.carousel-item:hover {
