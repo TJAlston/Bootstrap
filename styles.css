@@ -186,9 +186,20 @@ h3 {
     height: 60vh !important;
     width: 40vw !important;
   }
+
+  #about {
+    background: url("img/TJ1.png");
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    background-attachment: fixed;
+    margin-bottom: -32vh;
+    overflow: scroll;
+  }
+
   /*.carousel-item:hover {
     font-color: rgb(62, 62, 62);
   }*/
+
   /*.heightFix {
       height: 80vh;
   }
