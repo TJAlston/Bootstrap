@@ -89,6 +89,7 @@ h3 {
   overflow: scroll;
 }
 
+
 .about-text .passion {
   font-weight: lighter;
 }
@@ -160,21 +161,15 @@ h3 {
   #about {
     background: url("img/TJ1.png");
     background-repeat: no-repeat;
-    background-size: 600px 500px;
-    background-attachment: fixed;
+    background-size: 800px 700px;
+    background-position: center;
     overflow: scroll;
-  }
-
-  .about-text {
-    margin-bottom: 50px;
-  }
-
-  .carousel {
-    background-color: lightgrey;
+    background-attachment: fixed;
   }
 
   .about-text {
     background-color:  rgba(51, 51, 50, 0.7);
+    margin-top: 50px;
   }
 
 }
