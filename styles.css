@@ -153,47 +153,20 @@ h3 {
       padding-top: 70px;
   }
 
-.webDzyn {
-  width: 25vw;
-}
-
-.webDzyn2 {
-  width: 27vw;
-}
 /*// MEDIA QUERIES*/
 @media only screen and (max-width: 500px) {
 
-  .w-100{
-    height: 65vh !important;
-  }
-
-  .w-80{
-    height: 55vh !important;
-  }
-  .carousel-caption {
-    background-color:  rgba(51, 51, 50, 0.3); !important;
-    /*font-style: hidden !important;*/
-  }
-  .webDzyn {
-    height: 60vh !important;
-    width: 50vw !important;
-  }
-  .webDzyn2 {
-    height: 60vh !important;
-    width: 50vw !important;
-  }
-  .webDzyn3 {
-    height: 60vh !important;
-    width: 40vw !important;
-  }
 
   #about {
     background: url("img/TJ1.png");
     background-repeat: no-repeat;
     background-size: 600px 500px;
     background-attachment: fixed;
-    margin-bottom: -27vh;
     overflow: scroll;
+  }
+
+  .about-text {
+    margin-bottom: 50px;
   }
 
   .carousel {
@@ -204,18 +177,4 @@ h3 {
     background-color:  rgba(51, 51, 50, 0.7);
   }
 
-  /*.carousel-item:hover {
-    font-color: rgb(62, 62, 62);
-  }*/
-
-  /*.heightFix {
-      height: 80vh;
-  }
-
-  #about {
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    margin-bottom: -10vh;
-  }*/
 }
