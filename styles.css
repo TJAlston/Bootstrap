@@ -286,20 +286,34 @@ h3 {
     }
   }
 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
   .quote {
     visibility: hidden;
   }
 
 /*// MEDIA QUERIES*/
 
-@media only screen and (max-width: 600px) {
-  .quote {
-    visibility: hidden;
-  }
+@media only screen and (max-width: 767px) {
+
+.about-text {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  background-color:  rgba(51, 51, 50, 0.7);
+  margin-top: 50px;
 }
 
-@media only screen and (max-width: 500px) {
 
+
+@media only screen and (max-width: 500px) {
 
   #about {
     background: url("img/TJ1.png");
@@ -311,6 +325,8 @@ h3 {
   }
 
   .about-text {
+    animation-name: fadeIn;
+    animation-duration: 3s;
     background-color:  rgba(51, 51, 50, 0.7);
     margin-top: 50px;
   }
